@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap实例</title>
+    <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="../static/bootstrap/bootstrap3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style rel="stylesheet">
+        div{
+            border: 1px solid #000000;
+            padding: 0px 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">栅格化12列</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-6">列重叠6</div>
+            <div class="col-sm-8 col-md-6">窗口缩小，变为4和8</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">4</div>
+            <div class="col-md-8">8</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">偏移3</div>
+            <div class="col-md-3">6偏移了3，剩下3了</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">居中</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-6">嵌套</div>
+            <div class="col-sm-8 col-md-6">下面有两个</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-6"></div>
+            <div class="col-sm-8 col-md-6">
+                <div class="row">
+                    <div class="col-md-6">1</div>
+                    <div class="col-md-6">1</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-md-push-8">列排序4在左边</div>
+            <div class="col-md-8 col-md-pull-4">列排序8在右边</div>
+        </div>
+    </div>
+</body>
+</html>
